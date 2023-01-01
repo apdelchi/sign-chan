@@ -5,7 +5,7 @@ PLEASE NOTE: This is my first time using github , mistakes will be made! <br>
 This is NOT based on the Stack-chan body. Because I am using the CORE2-AWS I only used a signle servo<br>
 and attached it to a base plate so that it only rotates on the X-axis. <br>
 If you run this code on the CORE2 , you will have to modify the code for the LED lights to the appropriate pins as well as<br>
-the code for the servo for the appropriate pins. The info in in the code.<br>
+the code for the servo for the appropriate pins. The info is in the code.<br>
 <br>
 <br>
 Based on the following : <br>
