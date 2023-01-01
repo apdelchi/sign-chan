@@ -3,9 +3,9 @@ My first attempt at making software based on the stack-chan project<br>
 PLEASE NOTE: This is my first time using github , mistakes will be made! <br>
 <br>
 Based on the following : <br>
-- M5CORE STACK2-AWS
-- M5CORE OLED
-- M5CORE 180 SERVO
+- M5STACK CORE2-AWS
+- M5STACK OLED
+- M5STACK 180 SERVO
 - Lego Technic parts
 - Visual Studio Code
 - UiFlow Micropython firmware v. 1.10.9
