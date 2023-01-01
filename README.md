@@ -22,6 +22,12 @@ Avatar code : <br>
  Copyright (c) 2022 @akita11, Released under the MIT license<br>
 <br>
 <br>
+
+# BEFORE RUNNING
+- Insert your wifi SSID / pw into the code where indicated
+- Insert your PiHole IP address into the code where indicated
+- You may want to comment out the twitter code as it relies on a custom server I have locally and not a cloud based one
+<br><br>
 ./img : Image files for indicating services that Sign-chan is communicating with<br>
 ./aud : Audio files that Sign-chan uses to get your attention<br>
 <br>
