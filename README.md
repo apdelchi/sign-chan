@@ -24,7 +24,7 @@ Thanks to : <br>
 
 
 Avatar code : <br>
- M5StackAvatar BLOCK\n
+ M5StackAvatar BLOCK<br>
  Based on M5StackAvatarPython : https://github.com/h-akanuma/M5StackAvatarPython <br>
  v1.0 (220801)<br>
  Copyright (c) 2022 @akita11, Released under the MIT license<br>
