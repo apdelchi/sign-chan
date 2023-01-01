@@ -2,14 +2,20 @@
 My first attempt at making software based on the stack-chan project<br>
 PLEASE NOTE: This is my first time using github , mistakes will be made! <br>
 <br>
+This is NOT based on the Stack-chan body. Because I am using the CORE2-AWS I only used a signle servo<br>
+and attached it to a base plate so that it only rotates on the X-axis. <br>
+If you run this code on the CORE2 , you will have to modify the code for the LED lights to the appropriate pins as well as<br>
+the code for the servo for the appropriate pins. The info in in the code.<br>
+<br>
+<br>
 Based on the following : <br>
 - M5STACK CORE2-AWS ( SKU: K010-AWS ) 
 - M5STACK OLED      ( SKU: U119  )
 - M5STACK 180 SERVO ( SKU: A076-B )
 - Lego Technic parts:<br>
 Technic, Panel Plate 11 x 19 x 1, LEGO Item No: 39369<br>
-Pins and brackets included in the SKU : A076B kit<br>
-- Visual Studio Code
+Pins and brackets included in the A076B kit<br>
+- Visual Studio Code with M5STACK plugins
 - UiFlow Micropython firmware v. 1.10.9
 
 Thanks to : <br>
@@ -22,6 +28,7 @@ Avatar code : <br>
  Based on M5StackAvatarPython : https://github.com/h-akanuma/M5StackAvatarPython <br>
  v1.0 (220801)<br>
  Copyright (c) 2022 @akita11, Released under the MIT license<br>
+ NOTE : I have modified this code to correct bugs, with the help of the creator of the code. 
 <br>
 <br>
 
