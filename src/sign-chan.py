@@ -508,35 +508,35 @@ def doit():
 # IT DOES NOT USE CLOUD SERVICES
 # YOU MAY WANT TO COMMENT/REMOVE THIS CODE
 ####
-def gettwit():
-  global htw
-  twitter_logo("on")
-  t = requests.get('http://192.168.0.200/signchan.html')
-  tw = re.search('^(.+?):',t.text).group(1)
-  fm = re.search(':(.+?):',t.text).group(1)
-  me = re.search('.+:.+:(.+)',t.text).group(1)
-  if tw == htw :
-    _speak2("                 No new mentions")
-    twitter_logo("off")
-    # _speak2("                 No new mentions"+tw+"::"+htw)
-    return
-  _speak2("        Twitter Mention from " + fm )
-  y=0
-  oled_1.fill(0x000000)
-  for q in range (0,len(me),16):
-    line = me[q:q+16]
-    oled_1.text(line,0,y,0xffffff)
-    oled_1.show()
-    y+=11
-    if y==66 : 
-            for a in range (0,11):
-                oled_1.scroll(0,-1)
-                oled_1.show()
-            y=55
-  wait (5)
-  init_oled()
-  htw = tw
-  twitter_logo("off")
+#def gettwit():
+#  global htw
+#  twitter_logo("on")
+#  t = requests.get('http://192.168.0.200/signchan.html')
+#  tw = re.search('^(.+?):',t.text).group(1)
+#  fm = re.search(':(.+?):',t.text).group(1)
+#  me = re.search('.+:.+:(.+)',t.text).group(1)
+#  if tw == htw :
+#    _speak2("                 No new mentions")
+#    twitter_logo("off")
+#    # _speak2("                 No new mentions"+tw+"::"+htw)
+#    return
+#  _speak2("        Twitter Mention from " + fm )
+#  y=0
+#  oled_1.fill(0x000000)
+#  for q in range (0,len(me),16):
+#    line = me[q:q+16]
+#    oled_1.text(line,0,y,0xffffff)
+#    oled_1.show()
+#    y+=11
+#    if y==66 : 
+#            for a in range (0,11):
+#                oled_1.scroll(0,-1)
+#                oled_1.show()
+#            y=55
+#  wait (5)
+#  init_oled()
+#  htw = tw
+#  twitter_logo("off")
 
     
 #
@@ -558,8 +558,8 @@ _init_wifi()
 wait(3)
 
 while True:
-  gettwit()
-  wait(3)
+# gettwit()
+#  wait(3)
   get_wifi()
   doit()
   wait(3)
