@@ -3,10 +3,12 @@ My first attempt at making software based on the stack-chan project<br>
 PLEASE NOTE: This is my first time using github , mistakes will be made! <br>
 <br>
 Based on the following : <br>
-- M5STACK CORE2-AWS
-- M5STACK OLED
-- M5STACK 180 SERVO
-- Lego Technic parts
+- M5STACK CORE2-AWS ( SKU: K010-AWS ) 
+- M5STACK OLED      ( SKU: U119  )
+- M5STACK 180 SERVO ( SKU: A076-B )
+- Lego Technic parts:<br>
+Technic, Panel Plate 11 x 19 x 1, LEGO Item No: 39369<br>
+Pins and brackets included in the SKU : A076B kit<br>
 - Visual Studio Code
 - UiFlow Micropython firmware v. 1.10.9
 
