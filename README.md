@@ -1,5 +1,5 @@
 # Sign-chan
-My first attempt at making software based on the stack-chan project<br>
+My first attempt at making software based on the stack-chan project (( https://github.com/meganetaaan/stack-chan ))<br>
 PLEASE NOTE: This is my first time using github , mistakes will be made! <br>
 <br>
 This is NOT based on the Stack-chan body. Because I am using the CORE2-AWS I only used a signle servo<br>
