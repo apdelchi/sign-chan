@@ -32,6 +32,15 @@ Avatar code : <br>
 <br>
 <br>
 
+# WHAT DOES IT DO ? 
+- Scans for Wifi Access points, lists them on the OLED and reports on their security settings on the LCD
+- Reads the daily number of ads blocks and percentage of ads from PiHole and displays it on the LCD
+- Checks to see if anyone mentioned Sign-Chan on twitter, and if so then displays the mention on the LCD
+- Alerts you with a minions "BEE-DOO" if there is no Wifi available for it to attach to
+- Looks around on the X axis
+<br>
+
+
 # BEFORE RUNNING
 - Insert your wifi SSID / pw into the code where indicated
 - Insert your PiHole IP address into the code where indicated
